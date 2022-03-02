@@ -1,6 +1,11 @@
 import Head from "next/head";
+import Home from "./home";
+import About from "./about";
+import Timeline from "./timeline";
+import Connect from "./connect";
+import Works from "./works";
 
-export default function Home() {
+export default function Erin() {
   return (
     <div>
       <Head>
@@ -10,7 +15,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>ERIN LOUISE</h1>
+        <Home />
+        <About />
+        <Timeline />
+        <Connect />
+        <Works />
       </main>
     </div>
   );
