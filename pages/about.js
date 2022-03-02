@@ -4,7 +4,14 @@ function About() {
   return (
     <>
       <div>
-        <h1>About</h1>
+        <div>
+          <section>
+            <h1>About</h1>
+          </section>
+          <section>
+            <h1>About Page Two</h1>
+          </section>
+        </div>
       </div>
     </>
   );

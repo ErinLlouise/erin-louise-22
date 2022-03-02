@@ -4,7 +4,12 @@ function Works() {
   return (
     <>
       <div>
-        <h1>Works</h1>
+        <section>
+          <h1>Works</h1>
+        </section>
+        <section>
+          <h1>Works Page Two</h1>
+        </section>
       </div>
     </>
   );

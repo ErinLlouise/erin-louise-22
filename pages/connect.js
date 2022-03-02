@@ -4,7 +4,12 @@ function Connect() {
   return (
     <>
       <div>
-        <h1>Connect</h1>
+        <section>
+          <h1>Connect</h1>
+        </section>
+        <section>
+          <h1>Connect Page Two</h1>
+        </section>
       </div>
     </>
   );
