@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <>
-      <div>
+      <div className="darkSection">
         <section>
           <h1>Home</h1>
         </section>
