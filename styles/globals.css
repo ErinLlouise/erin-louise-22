@@ -1,16 +1,52 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+  font-family: "TestFoundersGrotesk400";
+  src: url("/fonts/Founders_Grotesk_Font_Family/TestFoundersGrotesk400.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
-* {
-  box-sizing: border-box;
+.nav {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 180px;
+  line-height: 255.99px;
+  font-family: "Noto Serif Display", serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "TestFoundersGrotesk400";
+  color: red;
+}
+
+p {
+  font-family: "TestFoundersGrotesk400";
+  color: black;
+}
+
+.darkSection {
+  background-color: #202030;
+  color: white;
+}
+
+.lightSection {
+  background-color: white;
+  color: #202030;
 }
