@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Nav from "./nav";
 import Home from "./home";
 import About from "./about";
 import Timeline from "./timeline";
@@ -15,6 +16,7 @@ export default function Erin() {
       </Head>
 
       <main>
+        <Nav />
         <Home />
         <About />
         <Timeline />
