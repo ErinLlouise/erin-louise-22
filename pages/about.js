@@ -5,10 +5,10 @@ function About() {
     <>
       <div>
         <div>
-          <section>
+          <section className="lightSection">
             <h1>About</h1>
           </section>
-          <section>
+          <section className="lightSection">
             <h1>About Page Two</h1>
           </section>
         </div>
