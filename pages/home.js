@@ -4,7 +4,12 @@ function Home() {
   return (
     <>
       <div>
-        <h1>Home</h1>
+        <section>
+          <h1>Home</h1>
+        </section>
+        <section>
+          <h1>Home Page Two</h1>
+        </section>
       </div>
     </>
   );
