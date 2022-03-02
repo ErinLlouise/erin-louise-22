@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "TestFoundersGrotesk400";
+  src: url("/fonts/Founders_Grotesk_Font_Family/TestFoundersGrotesk400.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 section {
   width: 100vw;
   height: 100vh;
@@ -17,12 +25,20 @@ section {
 }
 
 h1 {
-  font-size: 210px;
+  font-size: 180px;
   line-height: 255.99px;
+  font-family: "Noto Serif Display", serif;
+  font-weight: 400;
 }
 
 h2 {
+  font-family: "TestFoundersGrotesk400";
   color: red;
+}
+
+p {
+  font-family: "TestFoundersGrotesk400";
+  color: black;
 }
 
 .darkSection {

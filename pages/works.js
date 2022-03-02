@@ -5,10 +5,10 @@ function Works() {
     <>
       <div>
         <section className="darkSection">
-          <h1>Works</h1>
+          <h1>WORKS</h1>
         </section>
         <section className="darkSection">
-          <h1>Works Page Two</h1>
+          <h1>WORKS PAGE TWO</h1>
         </section>
       </div>
     </>

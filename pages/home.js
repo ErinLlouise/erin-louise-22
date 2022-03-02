@@ -5,10 +5,13 @@ function Home() {
     <>
       <div className="darkSection">
         <section>
-          <h1>Home</h1>
+          <h1>ERIN LOUISE</h1>
         </section>
         <section>
-          <h1>Home Page Two</h1>
+          <h1>ERIN LOUISE</h1>
+          {/* <h1>PRODUCT DESIGNER/</h1>
+          <h1>FRONT END DEVELOPER/</h1>
+          <h1>CREATIVE TECHNOLOGIST</h1> */}
         </section>
       </div>
     </>

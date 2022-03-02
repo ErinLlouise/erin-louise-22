@@ -5,16 +5,28 @@ function Timeline() {
     <>
       <div>
         <section className="darkSection">
-          <h1>Timeline</h1>
+          <h1>
+            2018-
+            <br />
+            2020
+          </h1>
         </section>
         <section className="darkSection">
-          <h1>Timeline Page Two</h1>
+          <h1>
+            2018-
+            <br />
+            2020
+          </h1>
         </section>
         <section className="darkSection">
-          <h1>Timeline Page Three</h1>
+          <h1>
+            2021-
+            <br />
+            2022
+          </h1>
         </section>
         <section className="darkSection">
-          <h1>Timeline Page Four</h1>
+          <h1>2022</h1>
         </section>
       </div>
     </>

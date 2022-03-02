@@ -13,6 +13,19 @@ export default function Erin() {
         <title>ERIN LOUISE</title>
         <meta name="description" content="Erin Louise Portfolio" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        {/* // eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;800;900&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Founders_Grotesk_Font_Family/TestFoundersGrotesk400.otf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
 
       <main>

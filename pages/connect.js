@@ -5,10 +5,10 @@ function Connect() {
     <>
       <div>
         <section className="lightSection">
-          <h1>Connect</h1>
+          <h1>CONNECT</h1>
         </section>
         <section className="lightSection">
-          <h1>Connect Page Two</h1>
+          <h1>CONNECT PAGE TWO</h1>
         </section>
       </div>
     </>
