@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import Head from "next/head";
-import Nav from "./nav";
+import Nav from "./navLight";
 import Home from "./home";
 import About from "./about";
 import Timeline from "./timeline";

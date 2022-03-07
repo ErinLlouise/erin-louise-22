@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import "../styles/variables.css";
-import "../styles/nav.css";
+import "../styles/navLight.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

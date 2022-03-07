@@ -6,6 +6,13 @@
   font-display: swap;
 }
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* dividing all sections */
 section {
   width: 100vw;
   height: 100vh;
@@ -16,6 +23,20 @@ section {
   justify-content: center;
 }
 
+/* defining light and dark sections */
+.darkSection {
+  width: 100%;
+  height: 100%;
+  background-color: #202030;
+  color: white;
+}
+
+.lightSection {
+  background-color: white;
+  color: #202030;
+}
+
+/* positioning nav at bottom */
 .nav {
   overflow: hidden;
   background-color: transparent;
@@ -24,6 +45,14 @@ section {
   width: 100%;
 }
 
+/* nav items arrangment */
+ul {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+/* global heading sizing  */
 h1 {
   font-size: 180px;
   line-height: 255.99px;
@@ -31,22 +60,6 @@ h1 {
   font-weight: 400;
 }
 
-h2 {
-  font-family: "TestFoundersGrotesk400";
-  color: red;
-}
-
 p {
   font-family: "TestFoundersGrotesk400";
-  color: black;
-}
-
-.darkSection {
-  background-color: #202030;
-  color: white;
-}
-
-.lightSection {
-  background-color: white;
-  color: #202030;
 }
