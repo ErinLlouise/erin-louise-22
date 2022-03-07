@@ -1,9 +1,11 @@
 import React from "react";
 
+// this navigation will show when the background of the app is black
+
 function Nav() {
   return (
     <>
-      <div className="navDarkContainer">
+      <div className="nav navDarkContainer">
         <ul>
           <li>e</li>
           <li>ABOUT</li>

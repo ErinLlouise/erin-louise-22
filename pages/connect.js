@@ -1,4 +1,5 @@
 import React from "react";
+import navLight from "./navLight";
 
 function Connect() {
   return (
@@ -6,9 +7,11 @@ function Connect() {
       <div>
         <section className="lightSection">
           <h1>CONNECT</h1>
+          <navLight />
         </section>
         <section className="lightSection">
           <h1>CONNECT PAGE TWO</h1>
+          <navLight />
         </section>
       </div>
     </>

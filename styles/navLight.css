@@ -1,6 +1,4 @@
-li {
-  color: white;
-  text-decoration: none;
-  list-style-type: none;
-  font-family: "Noto Serif Display", serif;
+.navLightContainer {
+  background-color: white;
+  color: black;
 }

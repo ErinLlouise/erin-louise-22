@@ -1,4 +1,5 @@
 import React from "react";
+import navLight from "./navLight";
 
 function About() {
   return (
@@ -7,6 +8,7 @@ function About() {
         <div>
           <section className="lightSection">
             <h1>ABOUT</h1>
+            <navLight />
           </section>
           <section className="lightSection">
             <p>
@@ -21,6 +23,7 @@ function About() {
               “The mind, once stretched by a new idea, never returns to its
               original dimensions” - Ralph Waldo Emerson
             </p>
+            <navLight />
           </section>
         </div>
       </div>

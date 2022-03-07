@@ -1,4 +1,5 @@
 import React from "react";
+import navDark from "./navDark";
 
 function Timeline() {
   return (
@@ -10,6 +11,7 @@ function Timeline() {
             <br />
             2020
           </h1>
+          <navDark />
         </section>
         <section className="darkSection">
           <h1>
@@ -17,6 +19,7 @@ function Timeline() {
             <br />
             2020
           </h1>
+          <navDark />
         </section>
         <section className="darkSection">
           <h1>
@@ -24,9 +27,11 @@ function Timeline() {
             <br />
             2022
           </h1>
+          <navDark />
         </section>
         <section className="darkSection">
           <h1>2022</h1>
+          <navDark />
         </section>
       </div>
     </>

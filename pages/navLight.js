@@ -1,9 +1,11 @@
 import React from "react";
 
+// this navigation will show when the background of the app is white
+
 function Nav() {
   return (
     <>
-      <div className="nav">
+      <div className="nav navLightContainer">
         <ul>
           <li>e</li>
           <li>ABOUT</li>
