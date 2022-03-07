@@ -4,7 +4,12 @@ function Nav() {
   return (
     <>
       <div className="nav">
-        <h2>This is a navigation bar</h2>
+        <ul>
+          <li>e</li>
+          <li>about</li>
+          <li>connect</li>
+          <li>works</li>
+        </ul>
       </div>
     </>
   );
